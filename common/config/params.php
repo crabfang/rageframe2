@@ -20,7 +20,7 @@ return [
     // 真实 app id
     'realAppId' => '',
     // 百度编辑器默认上传驱动
-    'UEditorUploadDrive' => 'local',
+    'UEditorUploadDrive' => 'cos',
     // 全局上传配置
     'uploadConfig' => [
         // 图片
@@ -28,7 +28,7 @@ return [
             'originalName' => false, // 是否保留原名
             'fullPath' => true, // 是否开启返回完整的文件路径
             'takeOverUrl' => '', // 配置后，接管所有的上传地址
-            'drive' => 'local', // 默认本地 可修改 qiniu/oss/cos 上传
+            'drive' => 'cos', // 默认本地 可修改 qiniu/oss/cos 上传
             'md5Verify' => true, // md5 校验
             'maxSize' => 1024 * 1024 * 10,// 图片最大上传大小,默认10M
             'extensions' => ["png", "jpg", "jpeg", "gif", "bmp"],// 可上传图片后缀不填写即为不限
@@ -49,7 +49,7 @@ return [
             'originalName' => true, // 是否保留原名
             'fullPath' => true, // 是否开启返回完整的文件路径
             'takeOverUrl' => '', // 配置后，接管所有的上传地址
-            'drive' => 'local', // 默认本地 可修改 qiniu/oss/cos 上传
+            'drive' => 'cos', // 默认本地 可修改 qiniu/oss/cos 上传
             'md5Verify' => true, // md5 校验
             'maxSize' => 1024 * 1024 * 50,// 最大上传大小,默认50M
             'extensions' => ['mp4', 'mp3'],// 可上传文件后缀不填写即为不限
@@ -63,7 +63,7 @@ return [
             'originalName' => true, // 是否保留原名
             'fullPath' => true, // 是否开启返回完整的文件路径
             'takeOverUrl' => '', // 配置后，接管所有的上传地址
-            'drive' => 'local', // 默认本地 可修改 qiniu/oss/cos 上传
+            'drive' => 'cos', // 默认本地 可修改 qiniu/oss/cos 上传
             'md5Verify' => true, // md5 校验
             'maxSize' => 1024 * 1024 * 30,// 最大上传大小,默认30M
             'extensions' => ['amr', 'mp3'],// 可上传文件后缀不填写即为不限
@@ -77,7 +77,7 @@ return [
             'originalName' => true, // 是否保留原名
             'fullPath' => true, // 是否开启返回完整的文件路径
             'takeOverUrl' => '', // 配置后，接管所有的上传地址
-            'drive' => 'local', // 默认本地 可修改 qiniu/oss/cos 上传
+            'drive' => 'cos', // 默认本地 可修改 qiniu/oss/cos 上传
             'md5Verify' => true, // md5 校验
             'maxSize' => 1024 * 1024 * 150,// 最大上传大小,默认150M
             'extensions' => [],// 可上传文件后缀不填写即为不限

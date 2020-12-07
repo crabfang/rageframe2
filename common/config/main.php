@@ -1,6 +1,6 @@
 <?php
 return [
-    'name' => 'RageFrame',
+    'name' => '惠省钱',
     'version' => '2.6.57',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',

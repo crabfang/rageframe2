@@ -2,8 +2,8 @@
 
 return [
     'adminEmail' => 'admin@example.com',
-    'adminAcronym' => 'RF',
-    'adminTitle' => 'RageFrame - 商户端',
+    'adminAcronym' => '惠省钱',
+    'adminTitle' => '惠省钱 - 商户端',
     'adminDefaultHomePage' => ['main/system'], // 默认主页
     // 登陆后的当前商户信息
     'merchant' => '',
