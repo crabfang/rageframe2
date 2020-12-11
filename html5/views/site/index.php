@@ -1,6 +1,9 @@
 <?php
 
-$this->title = 'Rageframe For html5';
+$this->title = '惠省钱商城';
+
+$url = "./index.html";
+echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='$url'</SCRIPT>"; 
 ?>
 
 <style>
@@ -62,7 +65,7 @@ $this->title = 'Rageframe For html5';
             html5
         </div>
         <div class="links">
-            <a href="#">欢迎进入手机应用</a>
+            <a href="index.html">欢迎进入手机应用</a>
         </div>
     </div>
 </div>
